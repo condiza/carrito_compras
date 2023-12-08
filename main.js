@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (username === "jeffer" && password === "12") {
       // Autenticación exitosa para el administrador
       window.location.href = "admin/admin.html";
-      loginMessage.textContent.add('admin');
+      loginMessage.textContent += 'admin';
     } else {
-        window.location.href = "user/index.html";
-        
-      loginMessage.textContent.add('user');
+      // Redirigir al usuario a la página del usuario
+      window.location.href = "user/index.html";
+      loginMessage.textContent += 'user';
     }
   });
 });
