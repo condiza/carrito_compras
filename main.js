@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var password = document.getElementById("password").value;
 
     // Validar los valores del nombre de usuario y la contraseña
-    if (username === "jeffer" && password === "123") {
+    if (username === "jeffer" && password === "12") {
       // Autenticación exitosa para el administrador
       window.location.href = "/admin/admin.html";
       loginMessage.textContent.add('admin');
