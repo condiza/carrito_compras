@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Carrito de compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+
+</head>
+
+<body>
+    <header id="header">
+        <h1>Shopping Cart</h1>
+        <div class="search">
+            <input id="searchBar" type="text" placeholder="Search" required />
+            <div class="categories">
+                <ul>
+                    <li><a href="">Screens</a></li>
+                    <li><a href="">Mice</a></li>
+                    <li><a href="">Headphones</a></li>
+                    <li><a href="">Laptops</a></li>
+                    <li><a href="">Keyboards</a></li>
+                </ul>
+            </div>
+            
+          
+            <div class="btn">
+                <i class="fas fa-search icon" id="searchImg"></i>
+                
+            </div>
+        </div>
+        <div>
+            <img id="cart" class="cart" src="/img/carrito-de-compras.png" alt="Shopping Cart">
+            <div id="number"></div>
+        </div>
+    </header>
+    
+
+    <main>
+        <div id="container" class="container"> </div>
+    </main>
+    
+    <div id="purchaseContainer">
+        <div class="purchaseInfo" id="purchaseInfo">
+            <h2 id="titleCart" class="titleCar">Cart</h2>
+            <p class="close" id="close">x</p>
+        </div>
+
+        <div class="purchaseProducts" id="purchaseProducts"></div>
+        <div class="total" id="total"></div>
+        <button>Complete Purchase</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
